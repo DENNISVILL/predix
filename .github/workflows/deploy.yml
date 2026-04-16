@@ -47,7 +47,7 @@ jobs:
       
       - name: 📊 Upload Frontend Coverage
         if: matrix.component == 'frontend'
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v6
         with:
           file: ./coverage/lcov.info
           flags: frontend
@@ -75,7 +75,7 @@ jobs:
       
       - name: 📊 Upload Backend Coverage
         if: matrix.component == 'backend'
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v6
         with:
           file: ./backend/coverage.xml
           flags: backend
@@ -103,7 +103,7 @@ jobs:
       
       - name: 📊 Upload AI System Coverage
         if: matrix.component == 'ai_system'
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v6
         with:
           file: ./ai_system/coverage.xml
           flags: ai_system
