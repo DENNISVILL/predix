@@ -53,4 +53,4 @@ httpx==0.25.2
 pytest-cov==4.1.0
 
 # Production dependencies
-sentry-sdk[fastapi]==1.38.0
+sentry-sdk[fastapi]==2.58.0
