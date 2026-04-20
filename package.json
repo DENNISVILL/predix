@@ -23,7 +23,7 @@
     "react": "^18.2.0",
     "react-big-calendar": "^1.19.4",
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.2.5",
     "react-hot-toast": "^2.4.1",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^6.8.0",
