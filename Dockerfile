@@ -1,5 +1,5 @@
 # Multi-stage build for Predix Frontend
-FROM node:18-alpine as builder
+FROM node:26-alpine as builder
 
 # Set working directory
 WORKDIR /app
